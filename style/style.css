@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: century gothic;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/banner.jpg");
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+ul {
+  float: right;
+  list-style: none;
+  margin-top: 50px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+}
+
+ul li a:hover {
+  background-color: #82bc10;
+  color: red;
+  transition: 0.6s ease;
+}
+
+ul li.active a {
+  background-color: #82bc10;
+  color: red;
+}
+
+.logo img {
+  height: auto;
+  width: 300px;
+  float: left;
+  margin-top: 50px;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover {
+  background-color: #82bc10;
+  color: red;
+}
+
+.footer {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+}
